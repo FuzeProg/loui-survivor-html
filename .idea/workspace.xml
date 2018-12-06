@@ -78,6 +78,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>assets/</find>
+      <find>Ressources/</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -108,6 +114,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,11 +138,15 @@
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="SqueletteHtml" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="louie-survivor-html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="louie-survivor-html" type="462c0819:PsiDirectoryNode" />
+              <item name="Ressources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -146,6 +157,10 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Ressources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ombeline\Documents\Master1_IRCOMS\NuitDeLinfo\louie-survivor-html" />
       <recent name="C:\Users\Ombeline\Documents\Master1_IRCOMS\NuitDeLinfo\louie-survivor-html\Design" />
