@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67dbc32-60d2-4beb-a76d-7d772341bde8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ressources/nunjucks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/louie-survivor-html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/louie-survivor-html.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dashbord/DashBord.html" beforeDir="false" afterPath="$PROJECT_DIR$/Design/Dashbord/DashBord.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SqueletteHtml/NavMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Design/SqueletteHtml/NavMenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SqueletteHtml/Squelette.html" beforeDir="false" afterPath="$PROJECT_DIR$/Design/SqueletteHtml/Squelette.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design/Dashbord/DashBord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design/SqueletteHtml/NavMenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Design/SqueletteHtml/Squelette.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,66 +22,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ressources/nunjucks.js">
+        <entry file="file://$PROJECT_DIR$/view/SqueletteHtml/NavMenu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="7821" column="13" lean-forward="true" selection-start-line="7821" selection-start-column="13" selection-end-line="7821" selection-end-column="13" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Design/SqueletteHtml/NavMenu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="36" column="14" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="36" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/SqueletteHtml/Squelette.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Design/SqueletteHtml/Squelette.html">
+        <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="343">
+              <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -101,20 +86,22 @@
       <list>
         <option value="$PROJECT_DIR$/DashBord.html" />
         <option value="$PROJECT_DIR$/Squelette.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/SqueletteHtml/NavMenu.html" />
         <option value="$PROJECT_DIR$/SqueletteHtml/Squelette.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/Ressources/nunjucks.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Design/SqueletteHtml/Squelette.html" />
+        <option value="$PROJECT_DIR$/Design/SqueletteHtml/NavMenu.html" />
+        <option value="$PROJECT_DIR$/view/SqueletteHtml/NavMenu.html" />
+        <option value="$PROJECT_DIR$/view/SqueletteHtml/Squelette.html" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="127" />
-    <option name="y" value="-15" />
-    <option name="width" value="1367" />
-    <option name="height" value="681" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="722" />
+    <option name="width" value="885" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -131,12 +118,17 @@
             <path>
               <item name="louie-survivor-html" type="b2602c69:ProjectViewProjectNode" />
               <item name="louie-survivor-html" type="462c0819:PsiDirectoryNode" />
-              <item name="Design" type="462c0819:PsiDirectoryNode" />
+              <item name="Ressources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="louie-survivor-html" type="b2602c69:ProjectViewProjectNode" />
               <item name="louie-survivor-html" type="462c0819:PsiDirectoryNode" />
-              <item name="Design" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="louie-survivor-html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="louie-survivor-html" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="SqueletteHtml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -155,8 +147,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ombeline\Documents\Master1_IRCOMS\NuitDeLinfo\louie-survivor-html\Design" />
       <recent name="C:\Users\Ombeline\Documents\Master1_IRCOMS\NuitDeLinfo\louie-survivor-html" />
+      <recent name="C:\Users\Ombeline\Documents\Master1_IRCOMS\NuitDeLinfo\louie-survivor-html\Design" />
       <recent name="C:\Users\Ombeline\Documents\Master1_IRCOMS\NuitDeLinfo\louie-survivor-html\SqueletteHtml" />
       <recent name="C:\Users\Ombeline\Documents\Master1_IRCOMS\NuitDeLinfo\louie-survivor-html\Dashbord" />
     </key>
@@ -173,15 +165,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.NavMenu.html">
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration name="NavMenu.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/louie-survivor-html/Design/SqueletteHtml/NavMenu.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="NavMenu.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/louie-survivor-html/SqueletteHtml/NavMenu.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Squelette.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/louie-survivor-html/Design/SqueletteHtml/Squelette.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Squelette.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/louie-survivor-html/SqueletteHtml/Squelette.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="JavaScript Debug.Squelette.html (1)" />
+        <item itemvalue="JavaScript Debug.NavMenu.html (1)" />
         <item itemvalue="JavaScript Debug.NavMenu.html" />
         <item itemvalue="JavaScript Debug.Squelette.html" />
       </list>
@@ -198,30 +202,31 @@
       <option name="presentableId" value="Default" />
       <updated>1544128458847</updated>
       <workItem from="1544128460510" duration="6241000" />
+      <workItem from="1544136036443" duration="3826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6241000" />
+    <option name="totallyTimeSpent" value="10067000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="722" y="0" width="885" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13498099" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2514758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.24091521" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32833788" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.23978202" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -231,6 +236,28 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/view/Dashbord/DashBord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/nunjucks/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ressources/nunjucks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="7821" column="13" selection-start-line="7821" selection-start-column="13" selection-end-line="7821" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -239,58 +266,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/FirstLayout.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="28" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design/Dashbord/DashBord.html">
+    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/homePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="206" selection-start-line="15" selection-start-column="206" selection-end-line="15" selection-end-column="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/layoutHome.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <caret line="4" selection-start-line="4" selection-end-line="81" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design/SqueletteHtml/NavMenu.html">
+    <entry file="file://$PROJECT_DIR$/view/SqueletteHtml/NavMenu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/view/SqueletteHtml/Squelette.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="14" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="36" selection-end-column="14" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ressources/nunjucks.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="7821" column="13" lean-forward="true" selection-start-line="7821" selection-start-column="13" selection-end-line="7821" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Design/SqueletteHtml/Squelette.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="343">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
         </state>
       </provider>
     </entry>
