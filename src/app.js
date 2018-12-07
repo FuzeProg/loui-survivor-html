@@ -5,7 +5,7 @@ var app = express();
 app.use(express.static('/public'));
 
 // Apply nunjucks and add custom filter and function (for example).
-var env = nunjucks.configure(['view/'], { // set folders with templates
+var env = nunjucks.configure(['src/view/'], { // set folders with templates
     autoescape: true,
     express: app
 });
@@ -54,4 +54,4 @@ app.listen(3000, function() {
     console.log('Example app listening on port 3000...');
 });
 
-app.use('/Ressources', express.static('Ressources'));
+app.use('/Ressources', express.static('src/Ressources'));
