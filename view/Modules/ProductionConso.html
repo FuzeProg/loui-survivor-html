@@ -1,8 +1,8 @@
-{% extends "SqueletteHtml/NavMenu.html" %}
+<script>
 
-{% block moduleConso %}
+</script>
 
-
+<div class="row">
     <div class="col-md-6">
         <section class="panel">
             <header class="panel-heading">
@@ -19,6 +19,7 @@
                 <!-- Flot: Basic -->
                 <div class="chart chart-md" id="flotDashBasic"></div>
                 <script>
+
                     var flotDashBasicData = [{
                         data: [
                             [0, 170],
@@ -51,15 +52,29 @@
                         ],
                         label: "Series 2",
                         color: "#2baab1"
-                    },
-                    ];
+                    }, {
+                        data: [
+                            [0, 70],
+                            [1, 69],
+                            [2, 73],
+                            [3, 88],
+                            [4, 47],
+                            [5, 13],
+                            [6, 28],
+                            [7, 69],
+                            [8, 73],
+                            [9, 28],
+                            [10, 28]
+                        ],
+                        label: "Series 3",
+                        color: "#734ba9"
+                    }];
 
                     // See: Ressources/javascripts/dashboard/examples.dashboard.js for more settings.
 
                 </script>
+
             </div>
         </section>
     </div>
-
-
-{% endblock %}
+</div>
