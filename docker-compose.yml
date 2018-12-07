@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  http:
+    image: lyoko17220/louie-survivor-html
+    ports:
+      - 80:80
+
+  mqtt-to-rest:
+    image: lyoko17220/louie-survivor-rest
+      - 8080:8080
+
+  mqtt-generator:
+    image: lyoko17220/louie-survivor-generator

@@ -1,0 +1,24 @@
+{
+  "name": "louie-survivor-html",
+  "version": "1.0.0",
+  "description": "Parce qu'il est toujours à l'écoute, même quand il est mort. Labilisé ANSSI, parce qu'on le vaut bien.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuzeProg/louie-survivor-html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FuzeProg/louie-survivor-html/issues"
+  },
+  "homepage": "https://github.com/FuzeProg/louie-survivor-html#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "express": "^4.16.4",
+    "nunjucks": "^3.1.4"
+  }
+}
