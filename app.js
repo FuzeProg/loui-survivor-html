@@ -9,6 +9,7 @@ var env = nunjucks.configure(['view/'], { // set folders with templates
     autoescape: true,
     express: app
 });
+
 env.addFilter('myFilter', function(obj, arg1, arg2) {
     console.log('myFilter', obj, arg1, arg2);
     // Do smth with obj
@@ -20,11 +21,8 @@ env.addGlobal('myFunc', function(obj, arg1) {
     return obj;
 });
 
-app.get('/', function(req, res){
-    res.render('SqueletteHtml/Squelette.html', {title: 'Main page'});
-});
 
-app.get('/foo', function(req, res){
+app.get('/', function(req, res){
     res.render('SqueletteHtml/NavMenu.html', {title: 'Foo page'});
 });
 
