@@ -3,42 +3,120 @@
 {% block Dashboard %}
 <div class="row">
     <div class="col-md-6">
-        <section class="panel">
-            <header class="panel-heading">
-                <div class="panel-actions">
-                    <a href="#" class="fa fa-caret-down"></a>
-                    <a href="#" class="fa fa-times"></a>
+        <div class="row">
+            <section class="panel">
+                <header class="panel-heading">
+                    <div class="panel-actions">
+                        <a href="#" class="fa fa-caret-down"></a>
+                        <a href="#" class="fa fa-times"></a>
+                    </div>
+
+                    <h2 class="panel-title">Production / Consommation</h2>
+                </header>
+                <div class="panel-body">
+                    <canvas id="bar-chart"></canvas>
+
+                    <script>
+                        new Chart(document.getElementById("bar-chart"), {
+                            type: 'line',
+                            data: {
+                                labels: ["8h", "10h", "12h", "14h", "16h", "18h", "20h"],
+                                datasets: [
+                                    {
+                                        label: "Production (Watts)",
+                                        fill: true,
+                                        backgroundColor: "rgba(60,186,159,0.5)",
+                                        data: [1973,2056,2205,2204,2435,2390,2156]
+                                    },
+                                    {
+                                        label: "Consommation (Watts)",
+                                        fill: true,
+                                        backgroundColor: "rgba(196,88,80,0.5)",
+                                        data: [2573,2556,2505,2304,2135,2190,2156]
+                                    }
+                                ]
+                            },
+                            options: {
+                                legend: { display: true },
+                                title: {
+                                    display: true,
+                                    text: 'Rapport Production | Consommation du camp'
+                                }
+                            }
+                        });
+                    </script>
                 </div>
+            </section>
+        </div>
+        <div class="row">
+            <section class="panel">
+                <header class="panel-heading panel-heading-transparent">
+                    <div class="panel-actions">
+                        <a href="#" class="fa fa-caret-down"></a>
+                        <a href="#" class="fa fa-times"></a>
+                    </div>
 
-                <h2 class="panel-title">Production / Consommation</h2>
-            </header>
-            <div class="panel-body">
-                <canvas id="bar-chart"></canvas>
-
-                <script>
-					new Chart(document.getElementById("bar-chart"), {
-						type: 'bar',
-						data: {
-							labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
-							datasets: [
-								{
-									label: "Population (millions)",
-									backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
-									data: [2478,5267,734,784,433]
-								}
-							]
-						},
-						options: {
-							legend: { display: false },
-							title: {
-								display: true,
-								text: 'Predicted world population (millions) in 2050'
-							}
-						}
-					});
-                </script>
-            </div>
-        </section>
+                    <h2 class="panel-title">Etat des charges</h2>
+                </header>
+                <div class="panel-body">
+                    <div class="table-responsive">
+                        <table class="table table-striped mb-none">
+                            <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Appareils</th>
+                                <th>Statut</th>
+                                <th>Progression</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Drone</td>
+                                <td><span class="label label-success">Chargé</span></td>
+                                <td>
+                                    <div class="progress progress-sm progress-half-rounded m-none mt-xs light">
+                                        <div class="progress-bar progress-bar-primary" role="progressbar"
+                                             aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+                                             style="width: 100%;">
+                                            100%
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Téléphone</td>
+                                <td><span class="label label-warning">En charge</span></td>
+                                <td>
+                                    <div class="progress progress-sm progress-half-rounded m-none mt-xs light">
+                                        <div class="progress-bar progress-bar-primary" role="progressbar"
+                                             aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
+                                             style="width: 50%;">
+                                            50%
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Montre Connectée</td>
+                                <td><span class="label label-danger">Déchargé</span></td>
+                                <td>
+                                    <div class="progress progress-sm progress-half-rounded m-none mt-xs light">
+                                        <div class="progress-bar progress-bar-primary" role="progressbar"
+                                             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                            0%
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
     <div class="col-md-6">
         <section class="panel">
@@ -67,7 +145,7 @@
                             ]
                         },
                         options: {
-                            legend: { display: true },
+                            legend: {display: true},
                             title: {
                                 display: true,
                             }
@@ -79,7 +157,42 @@
         </section>
     </div>
 </div>
+<div class="row">
+    <section class="panel">
+        <header class="panel-heading">
+            <div class="panel-actions">
+                <a href="#" class="fa fa-caret-down"></a>
+                <a href="#" class="fa fa-times"></a>
+            </div>
 
+            <h2 class="panel-title">Niveaux des Piles à combustibles</h2>
+        </header>
+        <div class="panel-body">
+            <div class="progress progress-striped m-lg">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"
+                     style="width: 45%">
+                    Pile 1 : 45%
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="progress progress-striped m-lg">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"
+                     style="width: 78%">
+                    Pile 2 : 78%
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="progress progress-striped m-lg">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"
+                     style="width: 15%">
+                    Pile 3 : 15%
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 
-{% endblock %}
+        {% endblock %}
 
