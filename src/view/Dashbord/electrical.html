@@ -47,15 +47,34 @@
                     <a href="#" class="fa fa-caret-down"></a>
                     <a href="#" class="fa fa-times"></a>
                 </div>
-                <h2 class="panel-title">Server Usage</h2>
-                <p class="panel-subtitle">It's easy to create custom graphs on JSOFT Admin Template, there are several
-                    graph types that you can use, such as lines, bars, pie charts, etc...</p>
+                <h2 class="panel-title">Répartition de l'életricité</h2>
             </header>
             <div class="panel-body">
+                <canvas id="pie-chart"></canvas>
 
-                <!-- Flot: Curves -->
-                <div class="chart chart-md" id="flotDashRealTime"></div>
+                <script>
+                    new Chart(document.getElementById("pie-chart"), {
+                        type: 'pie',
+                        data: {
+                            datasets: [{
+                                data: [25, 30, 45],
+                                backgroundColor: ['#31AF9E', '#168300', '#D2A801']
+                            }],
+                            labels: [
+                                'Eoliennes',
+                                'Piles à combustibles',
+                                'Solaire'
+                            ]
+                        },
+                        options: {
+                            legend: { display: false },
+                            title: {
+                                display: true,
+                            }
+                        }
+                    });
 
+                </script>
             </div>
         </section>
     </div>
