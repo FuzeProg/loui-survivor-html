@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67dbc32-60d2-4beb-a76d-7d772341bde8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/louie-survivor-html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/louie-survivor-html.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design/Dashbord/DashBord.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design/SqueletteHtml/NavMenu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design/SqueletteHtml/Squelette.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/SqueletteHtml/Squelette.html" beforeDir="false" afterPath="$PROJECT_DIR$/view/SqueletteHtml/Squelette.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,17 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/SqueletteHtml/NavMenu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="345">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -51,19 +36,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/SqueletteHtml/Squelette.html">
+        <entry file="file://$PROJECT_DIR$/view/SqueletteHtml/NavMenu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/SqueletteHtml/Squelette.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+            <state relative-caret-position="279">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -99,15 +93,15 @@
         <option value="$PROJECT_DIR$/Design/SqueletteHtml/Squelette.html" />
         <option value="$PROJECT_DIR$/Design/SqueletteHtml/NavMenu.html" />
         <option value="$PROJECT_DIR$/view/SqueletteHtml/NavMenu.html" />
-        <option value="$PROJECT_DIR$/view/SqueletteHtml/Squelette.html" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/view/SqueletteHtml/Squelette.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="722" />
-    <option name="width" value="885" />
-    <option name="height" value="867" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="9" />
+    <option name="width" value="1357" />
+    <option name="height" value="675" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -137,11 +131,6 @@
               <item name="louie-survivor-html" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="SqueletteHtml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="louie-survivor-html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="louie-survivor-html" type="462c0819:PsiDirectoryNode" />
-              <item name="Ressources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,9 +182,16 @@
     <configuration name="Squelette.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/louie-survivor-html/SqueletteHtml/Squelette.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" path-to-node="$USER_HOME$/n/n/versions/node/10.13.0/bin/node" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.NavMenu.html" />
+      <item itemvalue="JavaScript Debug.NavMenu.html (1)" />
+      <item itemvalue="JavaScript Debug.Squelette.html" />
+      <item itemvalue="JavaScript Debug.Squelette.html (1)" />
+      <item itemvalue="Node.js.app.js" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.app.js" />
@@ -218,29 +214,31 @@
       <updated>1544128458847</updated>
       <workItem from="1544128460510" duration="6241000" />
       <workItem from="1544136036443" duration="3826000" />
+      <workItem from="1544140578651" duration="257000" />
+      <workItem from="1544142485366" duration="185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10067000" />
+    <option name="totallyTimeSpent" value="10509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="722" y="0" width="885" height="867" extended-state="0" />
+    <frame x="0" y="-1" width="1366" height="733" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2514758" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24907063" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32833788" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32686085" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.23978202" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2394822" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -281,21 +279,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/FirstLayout.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/homePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/FirstLayout.html" />
+    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/layout.html" />
+    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/homePage.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -303,13 +289,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/layoutHome.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/layoutHome.html" />
+    <entry file="file://$PROJECT_DIR$/../../../Projet Raspberry/FirecoWorker/app/dashboard/page/dashboard.html" />
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="81" selection-end-column="6" />
+        <state relative-caret-position="345">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -320,31 +305,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        <state relative-caret-position="279">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/SqueletteHtml/NavMenu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/SqueletteHtml/Squelette.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        <state relative-caret-position="195">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
         </state>
       </provider>
     </entry>
