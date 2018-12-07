@@ -28,6 +28,16 @@ app.get('/foo', function(req, res){
     res.render('SqueletteHtml/NavMenu.html', {title: 'Foo page'});
 });
 
+app.get('/modProdConso', function(req, res){
+    res.render('Modules/ProductionConso.html', {title: 'Production Conso page'});
+});
+
+app.get('/test', function(req, res){
+    res.render('index.html', {title: 'test Conso page'});
+});
+
 app.listen(3000, function() {
     console.log('Example app listening on port 3000...');
 });
+
+app.use('/Ressources', express.static('Ressources'));
