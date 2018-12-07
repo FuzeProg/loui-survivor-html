@@ -50,10 +50,6 @@ app.get('/test', function(req, res){
     res.render('index.html', {title: 'test Conso page'});
 });
 
-    res.render('Dashbord/DashBoardElec.html', {title: 'test Conso page'});
-});
-
-app.get('/dashBoardElectrique', function(req, res){
 app.listen(3000, function() {
     console.log('Example app listening on port 3000...');
 });
