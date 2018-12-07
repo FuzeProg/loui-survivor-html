@@ -47,7 +47,7 @@ app.get('/people', function(req, res){
 });
 
 app.get('/test', function(req, res){
-    res.render('Modules/ProductionConso.html', {title: 'test Conso page'});
+    res.render('index.html', {title: 'test Conso page'});
 });
 
 app.listen(3000, function() {
