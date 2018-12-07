@@ -23,7 +23,7 @@ env.addGlobal('myFunc', function(obj, arg1) {
 
 
 app.get('/', function(req, res){
-    res.render('SqueletteHtml/NavMenu.html', {title: 'Foo page'});
+    res.render('Dashbord/electrical.html', {title: 'Foo page'});
 });
 
 app.get('/electrical', function(req, res){
