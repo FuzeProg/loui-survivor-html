@@ -26,13 +26,34 @@ app.get('/', function(req, res){
     res.render('SqueletteHtml/NavMenu.html', {title: 'Foo page'});
 });
 
-app.get('/modProdConso', function(req, res){
-    res.render('Modules/ProductionConso.html', {title: 'Production Conso page'});
+app.get('/electrical', function(req, res){
+	res.render('Dashbord/electrical.html', {title: 'Foo page'});
+});
+
+app.get('/food', function(req, res){
+	res.render('Dashbord/food.html', {title: 'Foo page'});
+});
+
+app.get('/world', function(req, res){
+	res.render('Dashbord/food.html', {title: 'Foo page'});
+});
+
+app.get('/expedition', function(req, res){
+    res.render('Modules/expedition.html', {title: 'Production Conso page'});
+});
+
+app.get('/people', function(req, res){
+	res.render('Modules/people.html', {title: 'Production Conso page'});
 });
 
 app.get('/test', function(req, res){
     res.render('index.html', {title: 'test Conso page'});
 });
+
+app.get('/test', function(req, res){
+	res.render('index.html', {title: 'test Conso page'});
+});
+
 
 app.listen(3000, function() {
     console.log('Example app listening on port 3000...');
