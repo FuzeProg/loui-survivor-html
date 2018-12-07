@@ -18,22 +18,29 @@
 
                     <script>
                         new Chart(document.getElementById("bar-chart"), {
-                            type: 'bar',
+                            type: 'line',
                             data: {
-                                labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
+                                labels: ["8h", "10h", "12h", "14h", "16h", "18h", "20h"],
                                 datasets: [
                                     {
-                                        label: "Population (millions)",
-                                        backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850"],
-                                        data: [2478, 5267, 734, 784, 433]
+                                        label: "Production (Watts)",
+                                        fill: true,
+                                        backgroundColor: "rgba(60,186,159,0.5)",
+                                        data: [1973,2056,2205,2204,2435,2390,2156]
+                                    },
+                                    {
+                                        label: "Consommation (Watts)",
+                                        fill: true,
+                                        backgroundColor: "rgba(196,88,80,0.5)",
+                                        data: [2573,2556,2505,2304,2135,2190,2156]
                                     }
                                 ]
                             },
                             options: {
-                                legend: {display: false},
+                                legend: { display: true },
                                 title: {
                                     display: true,
-                                    text: 'Predicted world population (millions) in 2050'
+                                    text: 'Rapport Production | Consommation du camp'
                                 }
                             }
                         });
